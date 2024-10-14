@@ -1,0 +1,29 @@
+Here's how you can set up Git from scratch while starting a new project:
+
+Steps:
+
+Check if Git is already installed on your system using the command: git -v.
+
+If it is not installed, download and install it for your operating system from here.
+
+Initialize a new Git repository in your project folder using the command: git init.
+
+Use the command git status to check the status of your local Git repository.
+
+Create a sample file: echo "A sample file is created" >> Sample.txt.
+
+Add the sample file from untracked to the staged area using: git add Sample.txt.
+
+Commit the file to the local Git repository with: git commit -m "Added Readme file".
+
+Register your global user details for authentication:
+
+git config --global user.email "rajat121237@gmail.com"
+
+git config --global user.name "Rajat Kumar Pandey"
+
+Add the remote repository URL: git remote add origin https://github.com/Rajat121237/DSA.git.
+
+Push your commits to the master branch of the remote repository: git push -u origin master.
+
+All set to go! 🚀
