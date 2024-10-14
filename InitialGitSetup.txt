@@ -4,7 +4,8 @@ Steps:
 
 Check if Git is already installed on your system using the command: git -v.
 
-If it is not installed, download and install it for your operating system from here.
+If it is not installed, download and install it for your operating system from below url.
+https://git-scm.com/downloads
 
 Initialize a new Git repository in your project folder using the command: git init.
 
